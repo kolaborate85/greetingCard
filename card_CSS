@@ -1,0 +1,12 @@
+#card{
+	border: 2px solid black;
+	width: 400px;
+	height:450px;
+	background-image: url("https://res.cloudinary.com/adebayo59/image/upload/v1581925024/web_graphics_olnaog.png");
+	background-image: repeat;
+}
+
+#greeting{
+	color: marron;
+	font-size: 20px;
+}
