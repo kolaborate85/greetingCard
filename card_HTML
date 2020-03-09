@@ -1,0 +1,24 @@
+<input type="color" id="color"><br>
+<button type = button onclick = "paintColor()">Add Paint</button>
+Lighter color recommended
+<br><br>
+
+
+Type greeting Here:<br>
+<textarea id = "greeting"></textarea>
+<br>
+
+<button type = button onclick = "message()">Leave Message</button>
+<br></br>
+
+From: <input type = text id = "from"><button onclick = "enter()"> Enter</button>
+<br></br>
+
+<div id = "card"><h3>Thank You</h3>
+	<div id = "message">Greetings</div>
+	<div id = "address"></div>
+	
+</div>
+<br>
+
+<button id = "printer" onclick = "print("printer1")">Print Card</button>
