@@ -1,0 +1,31 @@
+function paintColor(){
+	let myColor = document.getElementById("color").value;
+	document.getElementById("card").style.backgroundColor = myColor;
+}
+
+
+function message(){
+	let myMessage = document.getElementById("greeting").value;
+	document.getElementById("message").innerHTML = myMessage;
+}
+
+/**
+document.getElementById("print").addEventListener("click", function(){
+	window.print()
+});
+**/
+
+function print(card){
+	let myPrint = document.getElementById("card").innerHTML;
+	let wholePage = document.body.innerHTML;
+	
+	document.body.innerHTML = myPrint;
+	
+	window.print();
+	document.body.innerHTML = wholePage;
+}
+
+function enter(){
+	let sender = document.getElementById("from").value;
+	document.getElementById("address").innerHTML = "From: " + sender;
+}
